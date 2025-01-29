@@ -21,6 +21,10 @@
 
 # Installation
 
+Clone in ~/
+```zsh
+cd ~ && git clone git@github.com:Kuuro-neko/dotfiles.git && cd dotfiles/
+```
 Use stow
 ```zsh
 stow gtk
