@@ -15,6 +15,7 @@
 - oh-my-zsh
 - zoxide
 - fzf
+- viu
 - uwufetch
 - swaync
 - nwg-look

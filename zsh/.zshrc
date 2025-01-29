@@ -133,3 +133,6 @@ export FZF_DEFAULT_OPTS=" \
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# arch btw (even if not arch)
+alias neofetch='uwufetch -d arch -i'
