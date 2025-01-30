@@ -43,7 +43,7 @@ stow hyprpanel
 stow cava
 ```
 
-Set the weather api key in `~/.config/hyprpanel/config.json` :
+Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
 ```json
 {
     "menus.clock.weather.key": "/home/kuuro/.config/weather.json"
