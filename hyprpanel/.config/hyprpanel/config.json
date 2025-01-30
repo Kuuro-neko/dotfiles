@@ -2,7 +2,7 @@
   "bar.customModules.updates.pollingInterval": 1440000,
   "theme.bar.menus.opacity": 100,
   "theme.bar.transparent": true,
-  "menus.dashboard.powermenu.avatar.image": "~/Images/.wallpaper/Kuuro.png",
+  "menus.dashboard.powermenu.avatar.image": "/home/kuuro/Images/.icon/Kuuro.png",
   "menus.dashboard.powermenu.avatar.name": "Kuuro",
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
