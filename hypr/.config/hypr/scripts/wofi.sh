@@ -1,4 +1,10 @@
-if [pgrep wofi != null]; then
-	pkill wofi
+#!/usr/bin/env zsh
+
+CONFIG="$HOME/.config/hypr/wofi/config/config"
+STYLE="$HOME/.config/hypr/wofi/src/mocha/style.css"
+
+if ! pgrep -x wofi >/dev/null; then
+    wofi --conf "${CONFIG}" --style "${STYLE}"
+else
+    pkill wofi
 fi
-wofi --show drun
