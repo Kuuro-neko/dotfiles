@@ -20,6 +20,7 @@
 - swaync
 - nwg-look
 - ags-hyprpanel-git
+- cava
 
 # Installation
 
@@ -39,4 +40,5 @@ stow wallpaper
 stow waybar
 stow zsh
 stow hyprpanel
+stow cava
 ```
