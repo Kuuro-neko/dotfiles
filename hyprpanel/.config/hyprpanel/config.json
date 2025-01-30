@@ -2,7 +2,7 @@
   "bar.customModules.updates.pollingInterval": 1440000,
   "theme.bar.menus.opacity": 100,
   "theme.bar.transparent": true,
-  "menus.dashboard.powermenu.avatar.image": "/home/kuuro/Images/.persistant/Kuuro.png",
+  "menus.dashboard.powermenu.avatar.image": "~/Images/.wallpaper/Kuuro.png",
   "menus.dashboard.powermenu.avatar.name": "Kuuro",
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
@@ -29,5 +29,15 @@
   "menus.clock.time.military": true,
   "menus.clock.weather.location": "Paris",
   "menus.clock.weather.unit": "metric",
-  "bar.clock.format": "%a %b %d  %H:%M:%S"
+  "bar.clock.format": "%a %b %d  %H:%M:%S",
+  "menus.media.hideAuthor": false,
+  "menus.media.hideAlbum": false,
+  "menus.media.displayTime": false,
+  "menus.media.displayTimeTooltip": false,
+  "notifications.monitor": 0,
+  "bar.media.truncation": true,
+  "bar.media.show_label": true,
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.floating": false
 }
