@@ -44,3 +44,8 @@ stow cava
 ```
 
 Set the weather api key in `~/.config/hyprpanel/config.json` :
+```json
+{
+    "menus.clock.weather.key": "/home/kuuro/.config/weather.json"
+}
+```
