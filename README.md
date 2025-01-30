@@ -42,3 +42,5 @@ stow zsh
 stow hyprpanel
 stow cava
 ```
+
+Set the weather api key in `~/.config/hyprpanel/config.json` :
