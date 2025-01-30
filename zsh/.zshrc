@@ -137,5 +137,9 @@ eval "$(zoxide init --cmd cd zsh)"
 # arch btw (even if not arch)
 alias neofetch='uwufetch -d arch -i'
 
+if [[ -z "$TERM_PROGRAM" ]]; then
+    neofetch
+fi
+
 # Duplicate kitty terminal with same working directory
 alias nt='hyprctl dispatch -- exec kitty --working-directory=$PWD'
