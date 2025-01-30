@@ -19,6 +19,7 @@
 - uwufetch
 - swaync
 - nwg-look
+- ags-hyprpanel-git
 
 # Installation
 
@@ -37,4 +38,5 @@ stow Thunar
 stow wallpaper
 stow waybar
 stow zsh
+stow hyprpanel
 ```
