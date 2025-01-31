@@ -40,5 +40,6 @@
   "bar.autoHide": "never",
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.floating": false,
-  "menus.clock.weather.key": "/home/kuuro/.config/weather.json"
+  "menus.clock.weather.key": "/home/kuuro/.config/weather.json",
+  "theme.bar.border.location": "none"
 }
