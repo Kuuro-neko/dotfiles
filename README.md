@@ -21,6 +21,8 @@
 - nwg-look
 - ags-hyprpanel-git
 - cava
+- xdg-desktop-portal
+- xdg-desktop-portal-gtk
 
 # Installation
 
