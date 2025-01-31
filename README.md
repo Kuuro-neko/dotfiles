@@ -31,20 +31,29 @@ Clone in ~/
 cd ~ && git clone git@github.com:Kuuro-neko/dotfiles.git && cd dotfiles/
 ```
 Use stow
+
+Common between desktop and laptop
 ```zsh
 stow gtk
-stow hypr
 stow kitty
 stow nwg-look
 stow themes
-stow Thunar
 stow wallpaper
 stow waybar
 stow zsh
 stow hyprpanel
 stow cava
 ```
-
+Desktop specific
+```zsh
+stow hypr
+stow Thunar
+```
+Laptop specific
+```zsh
+stow hypr-laptop
+stow Thunar-laptop
+```
 Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
 ```json
 {

@@ -106,13 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#source ~/.zsh/ssh-agent.zsh
+source ~/.zsh/ssh-agent.zsh
 
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
-
-# now load zsh-syntax-highlighting plugin
-
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Alias for unimatrix
 alias cmatrix='unimatrix -l k -s 95'
