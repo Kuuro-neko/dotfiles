@@ -1,3 +1,7 @@
+# My dotfiles
+
+![image](/assets/screen.png)
+
 # Requirements
 
 - stow
