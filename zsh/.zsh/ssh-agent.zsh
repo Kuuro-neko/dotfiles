@@ -12,7 +12,6 @@ function start_ssh_agent() {
 
 	zstyle -a :plugins:ssh-agent identities identities
 
-	echo starting ssh-agent...
 	ssh-add $HOME/.ssh/${^identities}
 }
 
