@@ -3,7 +3,6 @@
 - stow
 - hyprland
 - wofi
-- waybar
 - hyprshot
 - hyprlock
 - hyprshade
@@ -39,7 +38,6 @@ stow kitty
 stow nwg-look
 stow themes
 stow wallpaper
-stow waybar
 stow zsh
 stow hyprpanel
 stow cava
