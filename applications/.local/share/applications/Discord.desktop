@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Discord
+Comment=Vesktop fixed for wayland
+Exec=vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland --disable-gpu
+Icon=vesktop
+Terminal=false
+Type=Application
+Categories=Game;
+Path=
+StartupNotify=false

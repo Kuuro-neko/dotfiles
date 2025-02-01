@@ -41,6 +41,7 @@ stow wallpaper
 stow zsh
 stow hyprpanel
 stow cava
+stow applications
 ```
 Desktop specific
 ```zsh
