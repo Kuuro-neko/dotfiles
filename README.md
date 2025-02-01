@@ -55,6 +55,7 @@ stow Thunar-laptop
 ```
 Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
 ```json
+// ~/.config/weather.json
 {
     "menus.clock.weather.key": "/home/kuuro/.config/weather.json"
 }
