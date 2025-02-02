@@ -25,14 +25,15 @@
 - cava
 - xdg-desktop-portal
 - xdg-desktop-portal-gtk
+- udev (laptop specific)
 
 # Installation
 
-Clone in ~/
+**Clone in ~/**
 ```zsh
 cd ~ && git clone git@github.com:Kuuro-neko/dotfiles.git && cd dotfiles/
 ```
-Use stow
+**Use stow**
 
 Common between desktop and laptop
 ```zsh
@@ -56,7 +57,7 @@ Laptop specific
 stow hypr-laptop
 stow Thunar-laptop
 ```
-Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
+**Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :**
 ```json
 {
     // ~/.config/hyprpanel/config.json
@@ -66,4 +67,13 @@ Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpane
     // ~/.config/weather.json
     "weather_api_key": "api_key"
 }
+```
+
+**Detect HDMI-A-1 monitor and move workspace 9 to it**
+
+/etc/udev/rules.d/99-hdmi-workspace.rules :
+`ACTION=="change", SUBSYSTEM=="drm", RUN+="/home/kuuro/.config/hypr/scripts/detect_hdmi.sh"`
+```zsh
+sudo udevadm control --reload-rules
+sudo udevadm trigger
 ```
