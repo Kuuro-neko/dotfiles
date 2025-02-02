@@ -20,7 +20,6 @@
 - fzf
 - viu
 - uwufetch
-- swaync
 - nwg-look
 - ags-hyprpanel-git
 - cava
