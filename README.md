@@ -77,3 +77,8 @@ stow Thunar-laptop
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
+# Random fixes
+## Audio crackling on games
+```zsh
+pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
+```
