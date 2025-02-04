@@ -29,13 +29,13 @@
 
 # Installation
 
-**Clone in ~/**
+## Clone in ~/
 ```zsh
 cd ~ && git clone git@github.com:Kuuro-neko/dotfiles.git && cd dotfiles/
 ```
-**Use stow**
+## Use stow
 
-Common between desktop and laptop
+### Common between desktop and laptop
 ```zsh
 stow gtk
 stow kitty
@@ -47,17 +47,17 @@ stow hyprpanel
 stow cava
 stow applications
 ```
-Desktop specific
+### Desktop specific
 ```zsh
 stow hypr
 stow Thunar
 ```
-Laptop specific
+### Laptop specific
 ```zsh
 stow hypr-laptop
 stow Thunar-laptop
 ```
-**Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :**
+## Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
 ```json
 {
     // ~/.config/hyprpanel/config.json
@@ -69,11 +69,16 @@ stow Thunar-laptop
 }
 ```
 
-**Detect HDMI-A-1 monitor and move workspace 9 to it**
+## Detect HDMI-A-1 monitor and move workspace 9 to it
 
 /etc/udev/rules.d/99-hdmi-workspace.rules :
 `ACTION=="change", SUBSYSTEM=="drm", RUN+="/home/kuuro/.config/hypr/scripts/detect_hdmi.sh"`
 ```zsh
 sudo udevadm control --reload-rules
 sudo udevadm trigger
+```
+# Random fixes
+## Audio crackling on games
+```zsh
+pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
 ```
