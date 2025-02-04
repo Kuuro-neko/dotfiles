@@ -1,0 +1,2 @@
+applications/.local/share/applications/*
+!applications/.local/share/applications/Discord.desktop
