@@ -35,6 +35,12 @@ cd ~ && git clone git@github.com:Kuuro-neko/dotfiles.git && cd dotfiles/
 ```
 ## Use stow
 
+### Script
+Installs all the stow packages : common and (desktop or laptop)
+```zsh
+./stow_all.sh
+```
+
 ### Common between desktop and laptop
 ```zsh
 stow gtk
@@ -69,7 +75,7 @@ stow Thunar-laptop
 }
 ```
 
-## Detect HDMI-A-1 monitor and move workspace 9 to it
+## Detect HDMI-A-1 monitor plug and move workspace 9 to it
 
 /etc/udev/rules.d/99-hdmi-workspace.rules :
 `ACTION=="change", SUBSYSTEM=="drm", RUN+="/home/kuuro/.config/hypr/scripts/detect_hdmi.sh"`
@@ -78,6 +84,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 # Random fixes
+for future reference
 ## Audio crackling on games
 ```zsh
 pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
