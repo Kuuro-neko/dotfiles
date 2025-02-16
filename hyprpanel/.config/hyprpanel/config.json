@@ -41,5 +41,10 @@
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.floating": false,
   "menus.clock.weather.key": "/home/kuuro/.config/weather.json",
-  "theme.bar.border.location": "none"
+  "theme.bar.border.location": "none",
+  "wallpaper.image": "/home/kuuro/Images/.wallpaper/plana.jpg",
+  "theme.matugen": false,
+  "theme.matugen_settings.mode": "dark",
+  "theme.matugen_settings.scheme_type": "expressive",
+  "wallpaper.enable": true
 }
