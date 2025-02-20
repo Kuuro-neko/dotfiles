@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMON_CONFIGS=(gtk kitty nwg-look themes wallpaper zsh hyprpanel cava applications)
+COMMON_CONFIGS=(gtk kitty nwg-look themes wallpaper zsh hyprpanel cava applications pipewire)
 DESKTOP_CONFIGS=(hypr Thunar)
 LAPTOP_CONFIGS=(hypr-laptop Thunar-laptop)
 
