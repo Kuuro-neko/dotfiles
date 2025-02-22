@@ -74,17 +74,8 @@ stow Thunar-laptop
     "weather_api_key": "api_key"
 }
 ```
-
-## Detect HDMI-A-1 monitor plug and move workspace 9 to it
-
-/etc/udev/rules.d/99-hdmi-workspace.rules :
-`ACTION=="change", SUBSYSTEM=="drm", RUN+="/home/kuuro/.config/hypr/scripts/detect_hdmi.sh"`
-```zsh
-sudo udevadm control --reload-rules
-sudo udevadm trigger
-```
 # Random fixes
-for future reference
+For future reference
 ## Audio crackling on games
 ```zsh
 pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
