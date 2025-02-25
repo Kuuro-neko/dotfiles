@@ -7,7 +7,7 @@
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
-  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland --disable-gpu",
   "menus.dashboard.shortcuts.left.shortcut4.command": "wofi -show drun",
   "menus.dashboard.directories.left.directory2.label": "󰉏  Videos",
   "menus.dashboard.directories.left.directory1.label": "󰉍  Downloads",
@@ -46,5 +46,8 @@
   "theme.matugen": false,
   "theme.matugen_settings.mode": "dark",
   "theme.matugen_settings.scheme_type": "expressive",
-  "wallpaper.enable": true
+  "wallpaper.enable": true,
+  "menus.dashboard.shortcuts.left.shortcut2.command": "steam",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Steam",
+  "menus.dashboard.shortcuts.left.shortcut2.icon": ""
 }
