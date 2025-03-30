@@ -1,8 +1,8 @@
 #!/bin/bash
 
-COMMON_CONFIGS=(gtk kitty nwg-look themes wallpaper zsh hyprpanel cava applications)
-DESKTOP_CONFIGS=(hypr Thunar)
-LAPTOP_CONFIGS=(hypr-laptop Thunar-laptop)
+COMMON_CONFIGS=(gtk kitty nwg-look themes wallpaper zsh cava applications)
+DESKTOP_CONFIGS=(hypr Thunar hyprpanel)
+LAPTOP_CONFIGS=(hypr-laptop Thunar-laptop hyprpanel-laptop)
 
 echo "Stow for laptop or desktop? (Enter 'desktop' or 'laptop')"
 read DEVICE_TYPE

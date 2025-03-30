@@ -49,7 +49,6 @@ stow nwg-look
 stow themes
 stow wallpaper
 stow zsh
-stow hyprpanel
 stow cava
 stow applications
 ```
@@ -57,11 +56,13 @@ stow applications
 ```zsh
 stow hypr
 stow Thunar
+stow hyprpanel
 ```
 ### Laptop specific
 ```zsh
 stow hypr-laptop
 stow Thunar-laptop
+stow hyprpanel-laptop
 ```
 ## Set the [weather api](https://www.weatherapi.com/my/) key in `~/.config/hyprpanel/config.json` :
 ```json
