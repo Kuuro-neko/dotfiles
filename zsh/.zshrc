@@ -103,3 +103,6 @@ fi
 # Duplicate kitty terminal with same working directory
 alias nt='hyprctl dispatch -- exec kitty --working-directory=$PWD'
 alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland --disable-gpu'
+
+export MY_INSTALL_DIR=$HOME/.local
+export PATH="$MY_INSTALL_DIR/bin:$PATH"
