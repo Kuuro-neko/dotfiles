@@ -25,7 +25,6 @@
 - cava
 - xdg-desktop-portal
 - xdg-desktop-portal-gtk
-- udev (laptop specific)
 
 # Installation
 
