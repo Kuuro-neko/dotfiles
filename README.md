@@ -9,9 +9,8 @@
 - wofi
 - hyprshot
 - hyprlock
-- hyprshade
+- hyprprop
 - hyprpicker
-- hyprcursor
 - kitty
 - thunar
 - zsh
